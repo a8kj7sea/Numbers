@@ -9,10 +9,10 @@ import me.sanhak.numbers.methods.Methods;
 public class ON { //Start
 
 	public static String Orange() {
-		String Zain = "077";
+		String orange = "077";
 		char[] chars = "01234567890".toCharArray();	      
-		for(int i = 0; i < Methods.length; ++i) {Zain = Zain + chars[Methods.random.nextInt(chars.length)];}
-		return Zain+"\n";
+		for(int i = 0; i < Methods.length; ++i) {orange = orange + chars[Methods.random.nextInt(chars.length)];}
+		return orange+"\n";
 	}
 	
 	public static void CreateFile_ON() throws IOException {	
