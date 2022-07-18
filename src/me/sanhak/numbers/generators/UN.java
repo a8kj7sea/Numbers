@@ -9,10 +9,10 @@ import me.sanhak.numbers.methods.Methods;
 public class UN { //Start
 
 	public static String Umniah() {
-		String Zain = "078";
+		String U = "078";
 		char[] chars = "01234567890".toCharArray();	      
-		for(int i = 0; i < Methods.length; ++i) {Zain = Zain + chars[Methods.random.nextInt(chars.length)];}
-		return Zain+"\n";
+		for(int i = 0; i < Methods.length; ++i) {U = U + chars[Methods.random.nextInt(chars.length)];}
+		return U+"\n";
 	}
 	
 	public static void CreateFile_UN() throws IOException {	
